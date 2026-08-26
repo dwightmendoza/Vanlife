@@ -7,21 +7,21 @@ const vans = [
     id: "1",
     name: "Modest Explorer",
     price: 60,
-    image: chevroletCamper,
+    image: "/vans/chevrolet-camper.jpg",
     description: "Simple and comfortable for your next adventure."
   },
   {
     id: "2",
     name: "Beach Bum",
     price: 80,
-    image: beachBum,
+    image: "/vans/beach-bum.jpg",
     description: "Perfect for relaxing trips along the coast."
   },
   {
     id: "3",
     name: "Reliable Red",
     price: 70,
-    image: reliableRed,
+    image: "/vans/reliable-red.jpg",
     description: "A dependable van for longer road trips."
   }
 ];
