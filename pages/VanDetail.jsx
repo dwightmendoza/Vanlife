@@ -1,25 +1,27 @@
 import { Link, useParams } from "react-router-dom";
-
+import chevroletCamper from "../assets/images/vans/chevrolet-camper.jpg";
+import beachBum from "../assets/images/vans/beach-bum.jpg";
+import reliableRed from "../assets/images/vans/reliable-red.jpg";
 const vans = [
   {
     id: "1",
     name: "Modest Explorer",
     price: 60,
-    image: "/assets/images/vans/chevrolet-camper.jpg",
+    image: chevroletCamper,
     description: "Simple and comfortable for your next adventure."
   },
   {
     id: "2",
     name: "Beach Bum",
     price: 80,
-    image: "/assets/images/vans/beach-bum.jpg",
+    image: beachBum,
     description: "Perfect for relaxing trips along the coast."
   },
   {
     id: "3",
     name: "Reliable Red",
     price: 70,
-    image: "/assets/images/vans/reliable-red.jpg",
+    image: reliableRed,
     description: "A dependable van for longer road trips."
   }
 ];
@@ -58,9 +60,6 @@ export default function VanDetail() {
 
       <p>{van.description}</p>
 
-      <button type="button" className="rent-button">
-        Rent This Van
-      </button>
     </main>
   );
 }
